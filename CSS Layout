@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  text-align: center; 
+  font-family: "Verdana", sans-serif;
+  color: white;
+}
+
+.portrait {
+  width: 200px;
+  border-radius: var(--border-radius);
+  flex-shrink: 0; 
+}
+
+img {
+  display: auto;
+}
+
+nav {
+text-align: center;
+flex-grow: 1; 
+
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px; 
+}
+
+.video {
+  width: 300px; 
+  
+
+}
