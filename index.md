@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/elliotep8/Portfolio-Website-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!--DOCTYPE HTML-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+<title> Elliot Ponce </title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<head>
 
-### Markdown
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!--Header-->
 
-```markdown
-Syntax highlighted code block
+<header class="flex-container">
+    <img src="Resources\Images\Elliot.jpg">
+    <nav>
+        <span><a href="#About Me">About Me</a></span>
+        <span><a href="#Projects">Projects</a></span>
+        <span><a href="#Skills">Skills</a></span>
+        <span><a href="#Contact">Contact</a></span>
+    </nav>
+</header>
 
-# Header 1
-## Header 2
-### Header 3
+<!-- Main Content Container -->
 
-- Bulleted
-- List
+<div class="main">
 
-1. Numbered
-2. List
+<!-- About Me Section -->
 
-**Bold** and _Italic_ and `Code` text
+<div id="About Me"> class="flex-container">
+<div class="content">
+<h2>About Me</h2>
+<p>Hi! I'm Elliot, Ponce and I am a Spanish-American web developer and entrepreneur, chiefly known for my work on Informatic Capital Investment's software-as-a-service robo-advisory platform.</p> 
+<br>
+<p>I am on one of the first to recognize the great potential that data and algorithms have beyond pure computational ingenuity, and to have published the first robo-advisory platform intended to be carried out by a a social network.</p>
+<br>
+<p>In my free time I like to stay challenged and complete Codecademy developments, data-analysis, and simulations. I also like to take my chances of learning new languages.</p>
 
-[Link](url) and ![Image](src)
-```
+<p>Fun fact! Capturing the benefit of higher stock prices through agile management and operational efficiency, Informatic Capital Investments LLC increased its annual return to 19.21% and its user subscription by over 62%. 
+</div>
+</div>
+<!--Projects & Skills Section -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<h2>Projects</h2>
+<div class="project">
+<ol>
+    <li url="https://elliotponce.wixsite.com/informatic-capital-">Finance Website</li>
+    <li url="https://elliotponce.wixsite.com/maui-culinary-academy">Restaurant Website</li>
+    <li url="https://elliotponce.wixsite.com/luzfinejewelry">Fine Jewelry Website</li>
+</ol>
 
-### Jekyll Themes
+<section id="skills"></section>
+<section id="skills">
+<h2>Skills</h2>
+<div id="skills-container">
+<i class="fab fa-html5></i>
+<i class="fab fa-css3-alt"></i>
+<i class="fab fa-chrome"></li>
+<i class="fab fa-github"></li>
+</div>
+</section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elliotep8/Portfolio-Website-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!--Contact Section -->
+<div id="contact">
+<h2>Chief Information Officer</h2>
+<h3>Elliot E. Ponce</h3>
+<h5>InformaticInvestments@gmail.com</h5>
+</div>
 
-### Support or Contact
+<!-- Footer Section -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<footer>
+    <h5>"In the Information Era, Data is Untapped Potential."</h5>
+    <img src="Resources\Images\Info.png">
+</footer>
